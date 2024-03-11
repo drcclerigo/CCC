@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="Style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		 <style type="text/css">  
+        body { margin:0; 
+		   } 
+			
+				
+    </style>
+</head>
+
+<body>
+	<div class="main">
+<a href="index.html" class="noSelect"><div class="headerbar">
+			<div class="headerimg">
+				<img src="images/Logo_CCC_W.png" alt=""/>
+			</div>
+    <div class="headertxt">
+						<h3>CAFÉS DE ESPECIALIDADE</h3>
+		<h5>SELECIONE A SUA CAFETEIRA</h5>
+		     </div>		
+	</div>	</a>
+				<!-- Swiper -->
+		<div class="swiper-container" style="background-image: url('images/Especialidade_BG.jpg');">
+    <div class="swiper-wrapper">
+
+		<div class="swiper-slide">
+			<a href="Especialidade/V-60.html" class="noSelect"> <img src="images/v60.jpg" alt=""/></a>
+			<div class="info">
+		  <h3>V60</h3></div>
+		</div>
+		<div class="swiper-slide">
+			<a href="Especialidade/Caf_Francesa.html" class="noSelect"><img src="images/Cafeteira_Embolo.jpg" alt=""/></a>
+			<div class="info">
+		  <h3>CAFETEIRA FRANCESA</h3></div>
+		</div>
+    </div>
+    <!-- Add Pagination -->
+ 
+	</div>
+
+	</div>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	
+	  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto' ,
+      spaceBetween: 40 ,
+		centeredSlides: true,
+	  centeredSlides: true ,
+	  grabCursor: true ,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>

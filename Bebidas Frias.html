@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, height=device-height">
+<title>Index</title>
+<link href="Style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		 <style type="text/css">  
+        body { margin:0; 
+		   } 
+			
+				
+    </style>
+</head>
+
+<body>
+	<div class="main">
+
+			<!-- Swiper -->
+  <div class="swiper-container" style="background-image: url('images/Bebidas_Frias_BG.jpg');">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+	    <a href="Bebidas_Frias/Shakkeratto.html" class="noSelect"><img src="images/Shakkeratto.jpg"  alt=""/>
+		  <div class="info">
+		  <h3>SHAKKERATO - 1.50€</h3></div></a>
+	  </div>
+		<div class="swiper-slide">
+			<a href="Bebidas_Frias/Granizado.html" class="noSelect"> <img src="images/Granizado.jpg" alt=""/></a>
+			<div class="info">
+		  <h3>GRANIZADO - 2.00€</h3></div>
+		</div>
+						<div class="swiper-slide">
+		  <a href="Bebidas_Frias/Kaldi.html" class="noSelect"> <img src="images/KALDI.jpg" alt=""/></a>
+			<div class="info">
+		  <h3>KALDI - 1.80€</h3></div>
+		</div>
+    </div>
+    <!-- Add Pagination -->
+ 
+	</div>
+<a href="index.html" class="noSelect"><div class="headerbar">
+			<div class="headerimg">
+				<img src="images/Logo_CCC_W.png" alt=""/>
+			</div>
+    <div class="headertxt">
+						<h3>BEBIDAS FRIAS</h3>
+					  <h5>SELECIONE A SUA BEBIDA</h5>
+		     </div>		
+	</div>	</a>
+	</div>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	
+	  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto' ,
+      spaceBetween: 40 ,
+		centeredSlides: true,
+	  centeredSlides: true ,
+	  grabCursor: true ,
+      loop: false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>

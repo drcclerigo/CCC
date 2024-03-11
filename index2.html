@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Index</title>
+<link href="Style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	 <style type="text/css">  
+        body {
+			
+			margin:0; 
+			padding: 0;
+			
+		   } 	
+    </style>  
+</head>
+
+<body>
+	   
+	<div class="main">
+	  <div class="headerbar">
+			<div class="headerimg">
+				<img src="images/Logo_CCC_W.png" alt=""/>
+			</div>
+		  <div class="headertxt">
+				<h3>CAFETARIA CCC</h3>
+			  <h5>TIPOS DE BEBIDAS</h5>
+			</div>		
+		</div>	
+			<!-- Swiper -->
+		<div id="container">
+			<div id="topDiv">
+
+				<a href="Bebidas Frias.html" class="noSelect"><img src="images/Bebidas_Frias.jpg"  alt=""/>
+					  <h3>BEBIDAS FRIAS</h3></a>
+
+				
+			</div>
+			<div id="bottomDiv">
+				  <a href="Bebidas_Quentes/Com_Leite.html" class="noSelect"><img src="images/Bebidas_Quentes.jpg" alt=""/>
+
+				  <h3>BEBIDAS QUENTES</h3>
+					  </a></div>
+		<!-- Add Pagination -->
+
+		</div>
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	
+	  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-containerstart', {
+      slidesPerView: 'auto' ,
+      spaceBetween: 40 ,
+		centeredSlides: true,
+	  centeredSlides: true ,
+	  grabCursor: true ,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
